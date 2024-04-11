@@ -10,7 +10,7 @@ export default function Navbar() {
         />
         <p>POKEMON</p>
       </div>
-      <div class="links">
+      <div className="links">
         <a href="https://pokeapi.co/">Pokemon Api</a>
         <a href="#">Pokemon Offical</a>
         <a href="#">About Author</a>
