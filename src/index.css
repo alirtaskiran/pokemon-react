@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,4 +46,75 @@
 
 .footer .copyright {
   color: rgb(210, 53, 89);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.content .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 800px;
+  text-align: center;
+  align-content: center;
+}
+
+.toolbar {
+  background-color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.input {
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 200px;
+  background-color: #fbd745;
+  font-size: larger;
+}
+
+.input::placeholder {
+  color: #833c4c;
+  font-family: "Ojuju", Arial, sans-serif;
+}
+
+.box {
+  min-height: 150px;
+  min-width: 150px;
+  border: 1px solid #ccc;
+}
+
+.box img {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.box .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.box .types {
+  font-weight: bold;
+  margin: 6px 0 0 0;
+}
+
+.box ul {
+  list-style: none;
+  display: relative;
+  top: 100px;
+  left: 100px;
+  padding-inline-start: 0;
+  margin: 0;
+  margin-bottom: 8px;
 }
